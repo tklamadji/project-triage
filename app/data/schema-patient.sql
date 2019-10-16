@@ -25,6 +25,7 @@ CREATE TABLE PatientVisit (
 
 INSERT INTO PatientVisit (visitId, patientGuid, visitDescription) VALUES
 (1, 'SOME-REALLY-LONG-1234', 'Anxiety from D&S');
+<<<<<<< HEAD
 
 
 CREATE TABLE Patient (
@@ -34,3 +35,5 @@ CREATE TABLE Patient (
     dob DATE DEFAULT NULL,
     sexAtBirth CHAR(1) DEFAULT ''
 );
+=======
+>>>>>>> d86e7a1fd389dad214d044bbb20db6eb3cf3cecc
